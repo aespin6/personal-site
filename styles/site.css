@@ -1,0 +1,65 @@
+p {
+  color: #03172f;
+  background-color: #bff3f7;
+  font-size: 28px;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  /*find a way to put in the light and extra bold weights*/
+}
+
+header {
+  margin: 0;
+  padding: 0px;
+}
+/*contain this in a box*/
+
+
+/*fix this*/
+.header h1 {
+  font-size: 75px;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color: #17556b;
+  text-decoration: none;
+}
+
+.header a:hover,
+.header a:active {
+    color: #b0dbde;
+}
+
+.header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header li {
+  font-size: 35px;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+
+
+/*float right, align with header*/
+
+
+.site-nav li{
+  display: inline;
+  width: 60px;
+}
+
+.site-nav a{
+    color: #6b8789;
+    text-decoration: none;
+    background-color: transparent;
+    padding-top: 0px;
+    padding-right: 35px;
+    padding-bottom: 90px;
+
+}
+
+.site-nav a:hover,
+.site-nav a:active {
+  color: #b0dbde;
+}
